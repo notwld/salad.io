@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px;
+}
+header nav .nav-brand{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+header nav .nav-brand h4{
+    margin-left: 15px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+header nav .nav-brand img{
+    width: 150px;
+    height: 150px;
+}

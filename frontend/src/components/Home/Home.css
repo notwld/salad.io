@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.container form label{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.container form label span{
+    font-size: 2.5em;
+}
+.container form label input[type="file"]{
+    display: block;
+    opacity: 0;
+    cursor: pointer!important;
+    position: absolute;
+    top: 40%;
+    right: -40%;
+}
+
+#file-upload{
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 60px 75px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+#upload-btn{
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 11px;
+    cursor: pointer;
+    background-color: #121212;
+    color: white;
+    font-size:0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#upload-btn:disabled{
+    background-color: #ccc;
+    color: #121212;
+    cursor: not-allowed;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.file-info p{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}

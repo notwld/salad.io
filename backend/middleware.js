@@ -6,7 +6,6 @@ let storage = multer.diskStorage({
     callback(null, path.join(__dirname, "public", "uploads"));
   },
   filename: (req, file, callback) => {
-    console.log(file.originalname);
     callback(null, file.originalname);
   },
 });
